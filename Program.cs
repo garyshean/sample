@@ -22,6 +22,9 @@ namespace TestConsole
             //this is used to demonstrate converting a string to an int
             int InputNumber = 0;
 
+            Console.WriteLine("num legs =" +c.NumberLegs);
+
+
             /*
              * try catch block demonstrates handling exceptions on input. In this case
              * a user may not follow instructions and enter some other value
