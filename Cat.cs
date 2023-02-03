@@ -6,12 +6,11 @@ namespace TestConsole
 	public class Cat : Animal
 	{
 
+		//override - i.e. change behavior of parent, the parent is virtual
+		public override int NumberLegs { get; set; } = 4;
 
-		public int NumberLegs { get; set; } = 4;
-
-
-		//not a creepy hairless cat
-        public Boolean furry { get; set; } = true;
+        //new - completely hide the parent and replace behavior
+        new public Boolean furry { get; set; } = true;
 
         public Cat()
 		{
